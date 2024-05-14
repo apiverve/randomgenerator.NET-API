@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.RandomDataGenerator</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/randomgenerator</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>Random Generator is a simple tool for generating random data. It returns random data such as numbers, strings, and more.</Description>
+    <RepositoryUrl>https://github.com/apiverve/randomgenerator-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>random generator; random data generator; random generator api; random data generator api; random generator tool; random data generator tool; random generator software; random data generator software; random generator service; random data generator service; random generator library; random data generator library; random generator sdk; random data generator sdk; random generator code; random data generator code; random generator script; random data generator script; random generator program; random data generator program; random generator application; random data generator application; random generator app; random data generator app; random generator utility; random data generator utility; random generator helper; random data generator helper; random generator helper tool; random data generator helper tool; random generator helper software; random data generator helper software; random generator helper service; random data generator helper service; random generator helper library; random data generator helper library; random generator helper sdk; random data generator helper sdk; random generator helper code; random data generator helper code; random generator helper script; random data generator helper script; random generator helper program; random data generator helper program; random generator helper application; random data generator helper application; random generator helper app; random data generator helper app; random generator helper utility; random data generator helper utility; random generator helper</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
