@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new randomgeneratorQueryOptions {
+var queryOptions = new RandomDataGeneratorQueryOptions {
   type = "number",
   count = 1
 };
@@ -98,18 +98,19 @@ if(response.error != null) {
     "type": "phone",
     "count": 10,
     "data": [
-      "1-913-327-1537 x139",
-      "651.528.3544 x202",
-      "979.679.2169 x025",
-      "829-727-1753 x2361",
-      "525.225.9233",
-      "1-633-448-8855",
-      "(981) 451-9319",
-      "688-342-6662",
-      "338-387-9393",
-      "1-723-502-0037 x8443"
+      "212-460-0024",
+      "1-846-413-1603",
+      "335-635-3189 x7230",
+      "642.244.2763 x8624",
+      "914.272.9333",
+      "1-353-419-2107 x8894",
+      "(712) 618-3444 x12418",
+      "1-320-897-6762 x7703",
+      "274.626.3573",
+      "233-516-9500"
     ]
-  }
+  },
+  "code": 200
 }
 ```
 
