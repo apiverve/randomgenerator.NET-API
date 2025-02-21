@@ -32,9 +32,9 @@ From within Visual Studio:
 
 1. Open the Solution Explorer.
 2. Right-click on a project within your solution.
-3. Click on Manage NuGet Packages...
+3. Click on Manage NuGet Packages..
 4. Click on the Browse tab and search for "APIVerve.API.RandomDataGenerator".
-5. Click on the APIVerve.API.RandomDataGenerator package, select the appropriate version in the right-tab and click Install.
+5. Click on the APIVerve.API.RandomDataGenerator package, click Install.
 
 
 ---
@@ -98,16 +98,16 @@ if(response.error != null) {
     "type": "phone",
     "count": 10,
     "data": [
-      "761-970-7159 x99346",
-      "735.598.2498 x6826",
-      "721.609.6741",
-      "1-999-943-5575 x77886",
-      "919-716-6283 x26102",
-      "(465) 351-9701 x68738",
-      "668.408.3803",
-      "(501) 811-6529 x777",
-      "964-808-0135",
-      "1-722-841-7354 x1228"
+      "(364) 770-8812",
+      "(827) 720-3964 x763",
+      "1-898-417-2358 x46110",
+      "365.480.9402",
+      "(969) 592-7408 x66689",
+      "459.782.6464 x8246",
+      "231.883.7848 x0025",
+      "858.762.1413 x820",
+      "(950) 934-0850 x85099",
+      "(440) 213-3300 x538"
     ]
   },
   "code": 200
@@ -136,7 +136,7 @@ All usage of the APIVerve website, API, and services is subject to the [APIVerve
 ## License
 Licensed under the The MIT License (MIT)
 
-Copyright (&copy;) 2024 APIVerve, and Evlar LLC
+Copyright (&copy;) 2025 APIVerve, and EvlarSoft LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
